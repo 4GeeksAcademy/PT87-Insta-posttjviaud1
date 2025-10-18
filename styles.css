@@ -1,0 +1,20 @@
+div{
+    border: 1px dotted red;
+}
+.post-header {
+    display:flex;
+}
+.post {
+    height: 700px;
+    width: 500px;
+}
+.icon-div {
+    margin: auto 0;
+}
+.elipsis {
+    margin-left: auto;
+}
+.post-img {
+    width: 100%;
+    object-fit: contain;
+}
