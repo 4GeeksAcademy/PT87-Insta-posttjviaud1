@@ -1,12 +1,12 @@
-div{
-    border: 1px dotted red;
-}
+
 .post-header {
     display:flex;
 }
 .post {
     height: 700px;
     width: 500px;
+    background-color: white;
+    margin-top: 30px;
 }
 .icon-div {
     margin: auto 0;
@@ -14,7 +14,23 @@ div{
 .elipsis {
     margin-left: auto;
 }
-.post-img {
-    width: 100%;
-    object-fit: contain;
+.small-image {
+    width: 500px;
+    height: 400px;    
+}
+.post-icons {
+    display: flex;
+    padding-top: 5px;
+}
+.post-body {
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.share-icon {
+    margin-left: 350px;
+}
+body {
+    justify-items: center;
+    background-color: black;
 }
